@@ -1,4 +1,5 @@
 // navPrevNext.js
+// save this file in your User Script directory (example:(obsidian vault root dir)/Templates/Scripts/navPrevNext.js)
 // you can load this function by adding  "<%* tR += await tp.user.navPrevNext() %>" in your template.md file
 
 module.exports = async (tp) => {
