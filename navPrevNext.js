@@ -1,4 +1,6 @@
 // navPrevNext.js
+// you can load this function by adding  "<%* tR += await tp.user.navPrevNext() %>" in your template.md file
+
 module.exports = async (tp) => {
   const KEY = "date";
   const curFile = app.workspace.getActiveFile();
